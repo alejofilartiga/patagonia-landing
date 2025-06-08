@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <Header>
+    <footer>
       <div>
         <div><img src="./img/facebook.png" alt="" /></div>
         <div><img src="./img/instagram.png" alt="" /></div>
@@ -10,7 +10,7 @@ function Footer() {
       </div>
       <h2>TERMINOS Y CONDICIONES | POLITICAS DE PRIVACIDAD | FRANQUICIAS</h2>
       <h3>BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 Años. NO COMPARTA EL CONTENIDO CON MENORES. 2025 CERVEZA PATAGONIA ©</h3>
-    </Header>
+    </footer>
   )
 }
 
