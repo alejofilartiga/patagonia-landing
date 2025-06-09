@@ -6,13 +6,13 @@ import Features from "./Features/Features"
 
 function Home() {
   return (
-    <div>
+    <>
       <Hero />
       <About />
       <Features />  
       <Reviews />
       <Refuges />
-    </div>
+    </>
   )
 }
 
