@@ -1,6 +1,7 @@
 /*! tailwindcss v4.1.5 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
+@plugin "@midudev/tailwind-animations";
 @layer theme {
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
@@ -1013,4 +1014,6 @@
       --tw-drop-shadow-size: initial;
     }
   }
+
+  
 }

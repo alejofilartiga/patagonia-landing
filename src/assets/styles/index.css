@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@plugin "@midudev/tailwind-animations";
 
 @font-face {
   font-family: 'Espiritu';
@@ -15,4 +15,13 @@
     font-style:normal;
     font-weight: 100 700;
     font-display: swap;
+}
+
+@theme {
+
+
+    /* Fuentes */
+
+    --font-espiritu: 'Espiritu', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
 }
