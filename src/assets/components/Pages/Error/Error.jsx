@@ -1,10 +1,10 @@
-import React from 'react'
+import bg from "./img/bg.png"
 
 function Error() {
   return (
-    <div>
-      
-    </div>
+    <section className="bg-black h-dvh flex justify-center items-center" >
+      <img src={bg}/>
+    </section>
   )
 }
 
