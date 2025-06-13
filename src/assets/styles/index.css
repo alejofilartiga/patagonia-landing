@@ -16,18 +16,3 @@
     font-weight: 100 700;
     font-display: swap;
 }
-
-@theme {
-    /* Colores */
-
-    --color-primary: #02291F;
-    --color-primary-light: #035F43;
-    --color-light: #F4EBD0;
-    --color-secondary: #BF5B04;
-    --color-secondary-light: #D98E04;
-
-    /* Fuentes */
-
-    --font-espiritu: 'Espiritu', sans-serif;
-    --font-poppins: 'Poppins', sans-serif;
-}
