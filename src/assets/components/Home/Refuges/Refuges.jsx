@@ -6,9 +6,9 @@ import iguazu from "./img/igu.jpg"
 
 function Refuges() {
   return (
-    <section className="bg-[#D98E04] w-full h-dvh flex justify-between flex-col items-center">
+    <section className="bg-[#D98E04] w-full md:flex-row h-dvh flex justify-between flex-col items-center">
       <div
-        className="flex h-1/4 w-full justify-center items-center relative"
+        className="flex h-1/4 md:h-full w-full justify-center items-center relative"
         style={{
           backgroundImage: `url(${bgsection})`,
           backgroundSize: 'cover',
@@ -16,7 +16,7 @@ function Refuges() {
         }}
       >
         <div className="absolute inset-0 backdrop-blur-xs"></div>
-        <h2 className="text-white p-2 text-center  text-3xl/relaxed  w-full  font-espiritu  relative z-10">NUESTROS REFUGIOS MÁS CONCURRIDOS</h2>
+        <h2 className="text-white p-2 text-center  text-3xl/relaxed  w-full  font-espiritu md:text-6xl md:text-start relative z-10">NUESTROS REFUGIOS MÁS CONCURRIDOS</h2>
       </div>
 
       <div className="flex flex-col h-full w-full justify-center  items-center gap-2 p-2">
