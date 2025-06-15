@@ -7,10 +7,10 @@ function Footer() {
   return (
     <footer className="bg-[#02291f] flex flex-col items-center w-full justify-center gap-4 p-4 text-white font-poppins" >
       <div className="flex gap-6 justify-center items-center">
-        <a href="https://www.facebook.com/patagoniacerveza/" target="_blank" ><div className="bg-[#035F43] rounded-3xl p-3 border-white border-3 overflow-hidden"><img className="w-30 md:w-10 " src={facebook}/></div></a>
-        <a href="https://www.instagram.com/cervezapatagonia/?hl=es" target="_blank"><div className="bg-[#035F43] rounded-3xl p-3 border-white border-3 overflow-hidden"><img className="w-30 md:w-10" src={instagram}/></div></a>
-        <a href="https://www.youtube.com/@cervezapatagonia1761" target="_blank"><div className="bg-[#035F43] rounded-3xl p-3 border-white border-3 overflow-hidden"><img className="w-30 md:w-10" src={youtube}/></div></a>
-        <a href="mailto:consultas@patagoniabrewingco.com" target="_blank"><div className="bg-[#035F43] rounded-3xl p-3 border-white border-3  overflow-hidden"><img className="w-30 md:w-10" src={email}/></div></a>
+        <a href="https://www.facebook.com/patagoniacerveza/" target="_blank" ><div className="bg-[#035F43] rounded-3xl p-3 border-white border-3 overflow-hidden hover:animate-scale active:opacity-45"><img className="w-30 md:w-10 " src={facebook}/></div></a>
+        <a href="https://www.instagram.com/cervezapatagonia/?hl=es" target="_blank"><div className="bg-[#035F43] rounded-3xl p-3 border-white border-3 overflow-hidden hover:animate-scale active:opacity-45"><img className="w-30 md:w-10" src={instagram}/></div></a>
+        <a href="https://www.youtube.com/@cervezapatagonia1761" target="_blank"><div className="bg-[#035F43] rounded-3xl p-3 border-white border-3 overflow-hidden hover:animate-scale active:opacity-45"><img className="w-30 md:w-10" src={youtube}/></div></a>
+        <a href="mailto:consultas@patagoniabrewingco.com" target="_blank"><div className="bg-[#035F43] rounded-3xl p-3 border-white border-3  overflow-hidden hover:animate-scale active:opacity-45"><img className="w-30 md:w-10" src={email}/></div></a>
       </div>
 
       <div className="flex gap-1 justify-center flex-col text-xs items-center w-full text-center md:flex-row md:gap-4 md:text-xl">

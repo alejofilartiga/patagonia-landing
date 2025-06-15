@@ -7,7 +7,7 @@ import mountain from "./img/mountain.png"
 function About() {
   return (
     <section className="flex flex-col w-full h-dvh" >
-      <div className="flex flex-col items-center justify-center w-full h-1/2" style={{ backgroundImage: `url(${bgabout})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className="flex flex-col items-center justify-center w-full h-1/2 timeline-view animate-fade-in-left" style={{ backgroundImage: `url(${bgabout})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="flex flex-col items-center md:flex-row md:items-start md:p-4 md:justify-between gap-3 justify-center w-full font-espiritu h-full">
           <h2 className="text-xs md:text-3xl bg-amber-100 rounded-3xl p-1">2006</h2>
           <h3 className="text-xs text-center md:text-3xl md:bg-transparent  bg-blue-100 rounded-2xl p-2  text-[#035F43] ">UN VIAJE QUE COMENZO EN LA PATAGONIA</h3>
@@ -17,7 +17,7 @@ function About() {
 
       <div className="flex items-center md:flex-nowrap flex-wrap justify-center w-full h-full bg-[#F4EBD0] overflow-auto p-3 gap-4">
 
-        <div className="flex items-center justify-center flex-col gap-4  text-center">
+        <div className="flex items-center justify-center flex-col gap-4 text-center">
           <div className="bg-[#035F43] rounded-full p-4">
             <img className="size-15 object-contain"  src={tree} alt="" />
           </div>
@@ -25,7 +25,7 @@ function About() {
           <p className="font-poppins text-center text-balance text-base">En el corazón de la Patagonia, un grupo de amigos apasionados por la cerveza artesanal comenzó a experimentar con ingredientes locales para crear sabores únicos.</p>
         </div>
 
-        <div className="flex items-center justify-center flex-col gap-4 text-center" > 
+        <div className="flex items-center justify-center flex-col gap-4 text-center " > 
           <div className="bg-[#035F43] rounded-full p-4">
             <img className="size-15" src={beer} />
           </div>
