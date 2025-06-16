@@ -6,7 +6,7 @@ import mountain from "./img/mountain.png"
 
 function About() {
   return (
-    <section className="flex flex-col w-full h-dvh" >
+    <section id="about" className="flex flex-col w-full h-dvh" >
       <div className="flex flex-col items-center justify-center w-full h-1/2 timeline-view animate-fade-in-left" style={{ backgroundImage: `url(${bgabout})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="flex flex-col items-center md:flex-row md:items-start md:p-4 md:justify-between gap-3 justify-center w-full font-espiritu h-full">
           <h2 className="text-xs md:text-3xl bg-amber-100 rounded-3xl p-1">2006</h2>

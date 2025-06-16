@@ -6,7 +6,7 @@ import iguazu from "./img/igu.jpg"
 
 function Refuges() {
   return (
-    <section className="bg-[#D98E04] w-full md:flex-row h-dvh flex justify-between flex-col items-center">
+    <section id="refuges" className="bg-[#D98E04] w-full md:flex-row h-dvh flex justify-between flex-col items-center">
       <div
         className="flex h-1/4 md:h-full w-full justify-center items-center relative"
         style={{

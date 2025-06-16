@@ -8,7 +8,7 @@ import sureña from "./img/sureña.png"
 
 function Features() {
   return (
-    <section className="grid grid-rows-3 grid-cols-2 md:grid-rows-2 md:grid-cols-3 flex-col w-full h-dvh font-espiritu" >
+    <section id="features" className="grid grid-rows-3 grid-cols-2 md:grid-rows-2 md:grid-cols-3 flex-col w-full h-dvh font-espiritu" >
         <div className="bg-[#035F43] flex flex-col justify-center py-4 items-center  timeline-view animate-zoom-in" >
             <h2 className="text-white  md:text-7xl text-4xl">unica</h2>
             <img className="w-15 md:w-25 relative bottom-4" src={lager} />
